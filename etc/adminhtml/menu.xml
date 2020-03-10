@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="RoiUp_Post::posts" title="Posts" module="RoiUp_Post" sortOrder="51" resource="RoiUp_Post::posts"/>
+        <add id="RoiUp_Post::manage_posts" title="Manage Posts" module="RoiUp_Post" sortOrder="10" action="roiup/post" resource="RoiUp_Post::manage_posts" parent="RoiUp_Post::posts"/>
+        <add id="RoiUp_Post::posts_config" title="Configuration" module="RoiUp_Post" sortOrder="99" parent="RoiUp_Post::posts" action="adminhtml/system_config/edit/section/posts" resource="RoiUp_Post::posts_config"/>
+    </menu>
+</config>
