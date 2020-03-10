@@ -30,5 +30,13 @@ class Post extends \Magento\Framework\Model\AbstractModel implements \Magento\Fr
 		$values = [];
 
 		return $values;
-	}
+    }
+    
+    public function getEnableStatus() {
+        return 1;
+    }
+     
+    public function getDisableStatus() {
+        return 0;
+    }
 }

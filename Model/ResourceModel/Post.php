@@ -9,7 +9,7 @@ use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
  *
  * @author  Miguel
  */
-class Distributor extends AbstractDb
+class Post extends AbstractDb
 {
     /**
      * Initialize resource
@@ -18,6 +18,6 @@ class Distributor extends AbstractDb
      */
     public function _construct()
     {
-        $this->_init('roiup_post', 'post_id');
+        $this->_init('roiup_posts', 'post_id');
     }
 }
