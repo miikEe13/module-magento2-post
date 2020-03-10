@@ -9,11 +9,11 @@ namespace RoiUp\Post\Model;
  */
 class Post extends \Magento\Framework\Model\AbstractModel implements \Magento\Framework\DataObject\IdentityInterface
 {
-    const CACHE_TAG = 'roiup_post_module';
+    const CACHE_TAG = 'roiup_post';
 
-	protected $_cacheTag = 'roiup_post_module';
+	protected $_cacheTag = 'roiup_post';
 
-	protected $_eventPrefix = 'roiup_post_module';
+	protected $_eventPrefix = 'roiup_post';
 
 	protected function _construct()
 	{
